@@ -1,0 +1,10 @@
+.choiseFrame {
+    color: white;    
+    margin-bottom: 2em;
+    background-color: #00000050;
+    border-radius: 40px;
+    max-width: 110em;
+    margin: 0 auto 20px auto;
+    padding: 2em 0.5em 2em 0.5em;
+}
+

@@ -1,0 +1,79 @@
+.htpBtn {
+  background-color: #4180b4;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  height: 2em;
+  width: 8em;
+  border: none;
+  text-align: center;
+  margin: 0 1em;
+}
+.active, .htpBtn:hover {
+  background-color: #ffb41f;
+}
+
+.htpDropdown {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  margin: 0 auto;
+  color: white;
+  max-width: 100rem;
+  min-width: 60rem;
+  overflow: hidden;
+  border-top: 5px solid #4180b4;
+  border-radius: 60px 60px 0 0;
+  background-color:#003153;    
+}
+
+.htpShort {
+  padding: 10px 20px 20px 20px;
+}
+
+.htpdescripcont {
+  padding: 20px;
+  text-align: left;
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  line-height: 1.5;
+  
+  gap: 20px;
+  height: 100%;
+}
+
+.htpLong {    
+  padding: 10px;
+  width: 100%;    
+}
+.htpLong:first-child {
+  border-right: 1px solid #4180b4;
+}
+
+.hide {
+  display: None;
+}
+
+  /*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+  .htpDropdown {    
+    width: 100%;
+    min-width: 10rem;
+
+  }
+  .htpdescripcont {
+    padding: 10px;
+    text-align: left;
+    display: block; 
+    line-height: 1.5;
+  }
+  .htpLong:first-child {
+    border-right: none;
+  }
+
+}

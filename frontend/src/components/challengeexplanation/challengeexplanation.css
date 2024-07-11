@@ -1,0 +1,11 @@
+.challengecategory {
+    color: #ffb41f
+}
+.explanationFrame {
+    background-color: #003153;
+    max-width: 800px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border-top: 2px solid #ff9505;
+}

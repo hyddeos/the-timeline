@@ -1,0 +1,130 @@
+
+
+.btn {
+    background-color: #ff9505;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    margin: 0.7em;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.btn:hover{
+    background-color: #FFB41F;    
+}
+
+
+.btn:active{
+    background-color: lightgreen;
+}
+
+.current {
+    background-color: lightgreen;
+}
+
+.current:hover {
+    background-color: lightgreen;
+}
+
+
+.startgame {
+    background-color: #ff9505;
+    min-height: 2.5em;
+    width: 15em;
+    min-width: 12em;
+    box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 34px -15px rgba(0,0,0,0.75);
+}
+
+.startgame:hover {
+    background-color: #FFB41F;       
+}
+
+.disabled {
+    background-color: grey;
+    cursor: not-allowed;
+    height: 2.5em;
+    width: 15em; 
+    min-width: 12em;
+}
+.disabled:hover {
+    background-color: grey;
+}
+
+#finishBtn{
+    height: 3em;
+}
+
+.scrollText {
+    padding: 0 10px;
+  }
+
+.scrollText:hover {
+    -webkit-animation-name: slide;
+    animation-name: slide;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+
+
+/*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+
+    .btn {
+        width: 8em;
+        height: 1.5em;
+    }
+
+    .disabled {
+        min-width: 12em;
+        min-height: 2.5em;
+    }
+
+}
+
+
+/*  ANIMATION
+================================================== */
+
+
+
+    @-webkit-keyframes slide {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    50% {
+    visibility: hidden;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    }
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        }
+    }
+    @keyframes slide {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    50% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        }
+    } 

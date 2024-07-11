@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  background-color: #1f1f1f;
+  background: linear-gradient(rgb(0, 49, 83, 0.8), rgb(1, 30, 50, 0.8)),
+    url("static/img/greybg.png");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: repeat;
+  color: white;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #ff9505;
+}
+
+a:hover {
+  color: #ffb41f;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+.container {
+  min-height: calc(100vh - 246px);
+}
+
+.flame {
+  background: #ffb41f;
+  background: linear-gradient(
+    to bottom,
+    #ffb41f 0%,
+    #ffb41f 25%,
+    white 52%,
+    #ffb41f 85%,
+    #ffb41f 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1.4rem;
+  text-indent: 0.3em;
+  overflow-x: hidden;
+}
+
+h2 {
+  letter-spacing: 0.15em;
+}
+
+h3 {
+  letter-spacing: 0.15em;
+}
+
+.flex {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-row {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+div.cell {
+  text-align: left;
+  padding: 10px;
+}
+
+.add {
+  max-width: 900px;
+  max-height: 500px;
+}
+
+/*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+  .flame {
+    letter-spacing: 0.8rem;
+  }
+}

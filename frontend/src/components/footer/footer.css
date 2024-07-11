@@ -1,0 +1,30 @@
+.footerFrame {
+  border-top: solid 1px #ff9505;
+  background-color: #00000050;
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerP {
+  padding-left: 8px;
+  padding-right: 8px;
+  paddig-top: 0px;
+  padding-bottom: 0px;
+}
+
+/*  #Mobile 
+================================================== */
+@media only screen and (max-device-width: 1000px) {
+  .footerFrame {
+    display: block;
+    height: 8em;
+  }
+  .footerP {
+    paddig-top: 6px;
+    padding-bottom: 6px;
+  }
+}
