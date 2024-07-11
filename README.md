@@ -111,9 +111,9 @@ This project was my submission for my final project in the cs50w Harvard course.
 [Harvard cs50w]: https://cs50.harvard.edu/web/2020/projects/final/capstone/ "Harvard CS50w Capstone Project"
 
 ## Contribute or Coffee?
-There surely is tons of ways this theme even better and I would be glad for any suggestions, contributions or bug reports.
+There surely is tons of ways this better and I would be glad for any suggestions, contributions or bug reports.
 
-Using this theme is completely free and I hope that you will enjoy it but if you want you can buy me a coffee.
+Using this code completely free and I hope that you will enjoy it, but if you want you can buy me a coffee.
 
 Buy Me Coffee
 
